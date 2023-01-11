@@ -1,0 +1,33 @@
+.markp{
+    background-color: orange;
+    font-size: 150%;
+    justify-content: center;
+}
+
+.markb{
+    background-color: orange;
+    border: black;
+    color: white;
+    font-size: 120%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.box{
+    width: 50vw;
+    height: 100vh;
+    border-radius: "0";
+    margin: "30px";
+    padding: "0";
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+img{
+    width: 50vw;
+    height: 100vh;
+}
